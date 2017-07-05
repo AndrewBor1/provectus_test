@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Andrew Borodin Test Task</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" 
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+        integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
+        crossorigin="anonymous">
+        
+        <!-- FONT AWESOME -->
+        <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+        
+        <!-- NORMALIZE.CSS -->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+        
+        <!-- CUSTOM STYLES -->
+        <link rel="stylesheet" type="text/css" href="css/javascript_test_style.css"/>
+    </head>
+    <body lang="en">
+        
+        <!-- MAIN SECTION -->
+        <section id="Main">
+            <div class="container-fluid main-container">
+                <div class="row main-row">
+                    <div class="col-md-12 main-col">
+                        <div class="description">
+                            Заполните строки. Строки должны состоять из одного и
+                            того же набора неповторяющихся символов. Одна строка 
+                            должна быть произвольной. Программа найдет и выведет
+                            на экран эту лишнюю строку, игнорируя пробелы. <br/>
+                            Пример набора строк:
+                            &#8216;a bc&#8216;, &#8216;  b ca&#8216;, &#8216;c ab&#8216;,
+                            &#8216;a sw  &#8216;, &#8216;a     c b&#8216;
+                        </div>
+                        <div class="strings">
+                            <label>
+                                Строка:
+                                <input type="text"/>
+                            </label>
+                            <label>
+                                Строка:
+                                <input type="text"/>
+                            </label>
+                            <label>
+                                Строка:
+                                <input type="text"/>
+                            </label>
+                        </div>
+                        <div class="manage-strings">
+                            <a id="AddStr" href="javascript:void(0);">
+                                <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                Добавить строку
+                            </a>
+                            <a id="RmStr" href="javascript:void(0);">
+                                <i class="fa fa-minus-circle" aria-hidden="true"></i>
+                                Удалить строку
+                            </a>
+                        </div>
+                        <div class="find-string">
+                            <a id="FindStr" href="javascript:void(0);">
+                                Результат
+                            </a>
+                        </div>
+                        <div class="result">
+                            <h1></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- JQUERY -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        
+        <!-- BOOTSTRAP -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+        
+        <!-- CUSTOM SCRIPT -->
+        <script type="text/javascript" src="js/javascript_test.js"></script>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+#Main .main-container .main-row .main-col .description {
+  margin: 50px auto;
+  width: 90%;
+  max-width: 750px;
+  font-size: 20px;
+  color: black;
+  text-align: center; }
+#Main .main-container .main-row .main-col .strings label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center; }
+  #Main .main-container .main-row .main-col .strings label input {
+    text-align: center; }
+#Main .main-container .main-row .main-col .manage-strings {
+  text-align: center; }
+  #Main .main-container .main-row .main-col .manage-strings #AddStr {
+    color: black;
+    font-size: 18px;
+    text-decoration: none; }
+    #Main .main-container .main-row .main-col .manage-strings #AddStr i {
+      color: green; }
+    #Main .main-container .main-row .main-col .manage-strings #AddStr:hover {
+      color: green; }
+  #Main .main-container .main-row .main-col .manage-strings #RmStr {
+    margin-left: 30px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none; }
+    #Main .main-container .main-row .main-col .manage-strings #RmStr i {
+      color: red; }
+    #Main .main-container .main-row .main-col .manage-strings #RmStr:hover {
+      color: red; }
+#Main .main-container .main-row .main-col .find-string {
+  margin-top: 35px;
+  text-align: center; }
+  #Main .main-container .main-row .main-col .find-string #FindStr {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid orange;
+    font-size: 20px; }
+    #Main .main-container .main-row .main-col .find-string #FindStr:hover {
+      background: orange;
+      color: white; }
+#Main .main-container .main-row .main-col .result {
+  margin-top: 50px; }
+  #Main .main-container .main-row .main-col .result h1 {
+    display: none;
+    text-align: center; }
+
+/*# sourceMappingURL=javascript_test_style.css.map */

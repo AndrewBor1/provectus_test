@@ -1,0 +1,75 @@
+#Main {
+    .main-container {
+        .main-row {
+            .main-col {
+                .description {
+                    margin: 50px auto;
+                    width: 90%;
+                    max-width: 750px;
+                    font-size: 20px;
+                    color: black;
+                    text-align: center;
+                }
+                .strings {
+                    label {
+                        display: block;
+                        margin-bottom: 10px;
+                        text-align: center;
+                        input {
+                            text-align: center;
+                        }
+                    }
+                }
+                .manage-strings {
+                    text-align: center;
+                    #AddStr {
+                        color: black;
+                        font-size: 18px;
+                        text-decoration: none;
+                        i {
+                            color: green;
+                        }
+                        &:hover {
+                            color: green;
+                        }
+                    }
+                    #RmStr {
+                        margin-left: 30px;
+                        color: black;
+                        font-size: 18px;
+                        text-decoration: none;
+                        i {
+                            color: red;
+                        }
+                        &:hover {
+                            color: red;
+                        }
+                    }
+                }
+                .find-string {
+                    margin-top: 35px;
+                    text-align: center;
+                    #FindStr {
+                        display: inline-block;
+                        padding: 10px 30px;
+                        text-decoration: none;
+                        color: black;
+                        border: 2px solid orange;
+                        font-size: 20px;
+                        &:hover {
+                            background: orange;
+                            color: white;
+                        }
+                    }
+                }
+                .result {
+                    margin-top: 50px;
+                    h1 {
+                        display: none;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
